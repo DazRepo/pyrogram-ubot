@@ -6,7 +6,7 @@
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
-# Cilik-PyroBot
+# KitUb-Userbot
 
 from base64 import b64decode
 from distutils.util import strtobool
@@ -17,28 +17,28 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🎈")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/d024319f8a45ac342b057.jpg")
-HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/262275bf87e1371d4de1a.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "Hi 👋, Cilik alive.")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", None)
+ALIVE_LOGO = getenv("ALIVE_LOGO", None)
+HELP_LOGO = getenv("HELP_LOGO", None)
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "I am KitUb alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001687155877]
+    BLACKLIST_CHAT = [-1001473548283, -1001687155877, -1001557174634]
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOT_VER = "1.0@main"
 BRANCH = "main"
-CHANNEL = getenv("CHANNEL", "CilikProject")
+CHANNEL = getenv("CHANNEL", "bebasterserahya")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwX3R2ZE8yWmw4Y3V2cG1uTjFvaEpEMTFjTEtCdGJKUTBzZkZyaw==").decode(
+    b64decode("Z2hwX3JSU1NzOFp5bkIxV00xd1NXNlpLdFBjUGR3cHUxYTJtWGpwMQ==").decode(
         "utf-8"
     ),
 )
-GROUP = getenv("GROUP", "CilikSupport")
+GROUP = getenv("GROUP", "GcKitaro")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
