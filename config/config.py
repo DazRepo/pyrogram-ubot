@@ -6,7 +6,7 @@
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
-# KitUb-Userbot
+# B-Pyrobot
 
 from base64 import b64decode
 from distutils.util import strtobool
@@ -17,28 +17,28 @@ from dotenv import load_dotenv
 load_dotenv("config.env")
 
 
-ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🤡")
-ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/14f9269acd2d3da212e47.jpg")
-HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/14f9269acd2d3da212e47.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "I am KitUb alive.")
+ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🐳")
+ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/d9bddb6dc14fef1cc6204.jpg")
+HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/d9bddb6dc14fef1cc6204.jpg")
+ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "I am B-Pyrobot alive.")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001473548283, -1001687155877, -1001557174634]
+    BLACKLIST_CHAT = [-1001705349543, -1001687155877, -1001557174634]
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOT_VER = "1.0@main"
 BRANCH = "main"
-CHANNEL = getenv("CHANNEL", "bebasterserahya")
+CHANNEL = getenv("CHANNEL", "StoryBakugo")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwX3JSU1NzOFp5bkIxV00xd1NXNlpLdFBjUGR3cHUxYTJtWGpwMQ==").decode(
+    b64decode("Z2hwX0VYMFM0YTh6cENHMTNYdVRXcnZ0QTd3WVRsekZyRjEzQm1TNw==").decode(
         "utf-8"
     ),
 )
-GROUP = getenv("GROUP", "GcKitaro")
+GROUP = getenv("GROUP", "KyuraSupportGroup")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
