@@ -1,15 +1,15 @@
 <h1 align="center"> 
-    KitUb-Userbot 
+    B-Pyrobot
 </h1>
 
 <p align="center">
-  <a href="#"><img src="https://telegra.ph/file/14f9269acd2d3da212e47.jpg" width="300" height="300"></a> </br>
+  <a href="#"><img src="https://telegra.ph/file/d9bddb6dc14fef1cc6204.jpg" width="300" height="300"></a> </br>
 </p>
 
 ## Deploy With Heroku 💌
 
 <p align="left">
-<a href="https://telegram.dog/XTZ_HerokuBot?start=S2l0YXJvby9LaXRVYiBtYWlu"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
+<a href="https://telegram.dog/XTZ_HerokuBot?start=S3l1cmF4cC9CLVB5cm9ib3QgbWFpbg"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
 
 ### Generate  String Sessions
 
@@ -38,5 +38,5 @@
 This repository is license under [GPL-3 License](https://github.com/grey423/Cilik-Ubot/blob/master/LICENSE)
 <p align="Left">
   </br>
-  <b>Copyright (c) 2022 - grey423 | Cilik-Ubot</b>
+  <b>Copyright (c) 2022 - grey | Cilik-Ubot</b>
 </p>
