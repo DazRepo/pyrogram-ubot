@@ -6,7 +6,7 @@
 # <https://www.github.com/mrismanaziz/PyroMan-Userbot/blob/main/LICENSE/>.
 #
 # t.me/SharingUserbot & t.me/Lunatic0de
-# KitUb-Userbot
+# B-Pyrobot
 
 from pyrogram import idle
 from uvloop import install
@@ -16,10 +16,10 @@ from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from Cilik.helpers.misc import git, heroku
 
 MSG_ON = """
-✅ **KitUb Activated.**
+✅ **B-Pyrobot Activated.**
 
 **🏷️ Userbot Version -** `{}`
-**Ketik** `.kit` **untuk Mengecheck Bot**
+**Ketik** `.b` **untuk Mengecheck Bot**
 """
 
 
@@ -28,8 +28,8 @@ async def main():
         try:
             await bot.start()
             bot.me = await bot.get_me()
-            await bot.join_chat("bebasterserahya")
-            await bot.join_chat("GcKitaro")
+            await bot.join_chat("storybakugo")
+            await bot.join_chat("KyuraSupportGroup")
             await bot.send_message(BOTLOG_CHATID, MSG_ON.format(BOT_VER))
         except Exception as a:
             LOGGER("main").warning(a)
@@ -38,10 +38,10 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("Kit").info("Starting KitUb")
+    LOGGER("Kit").info("Starting B-Pyrobot")
     LOGGER("Kit").info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
-    LOGGER("Kit").info(f"KitUb v{BOT_VER} ⚙️[⚡ Activated ⚡]")
+    LOGGER("Kit").info(f"B-Pyrobot v{BOT_VER} ⚙️[🐳 Activated 🐳]")
     LOOP.run_until_complete(main())
