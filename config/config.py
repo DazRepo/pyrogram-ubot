@@ -34,7 +34,7 @@ CHANNEL = getenv("CHANNEL", "StoryBakugo")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwX0VYMFM0YTh6cENHMTNYdVRXcnZ0QTd3WVRsekZyRjEzQm1TNw==").decode(
+    b64decode("Z2hwX3BBNTNPcHJjZlFnTEpvWjl4cXFhYk9pS1ZrMzZtZjFaWHM2Wg==").decode(
         "utf-8"
     ),
 )
