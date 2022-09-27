@@ -1,7 +1,7 @@
 {
-  "name": "KitUb-Userbot",
-  "description": "[KitUb-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
-  "logo": "https://telegra.ph/file/14f9269acd2d3da212e47.jpg",
+  "name": "B-Pyrobot",
+  "description": "[B-Pyrobot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.",
+  "logo": "https://telegra.ph/file/d9bddb6dc14fef1cc6204.jpg",
   "stack": "heroku-22",
   "env": {
     "API_ID": {
