@@ -20,12 +20,12 @@ load_dotenv("config.env")
 ALIVE_EMOJI = getenv("ALIVE_EMOJI", "🐳")
 ALIVE_LOGO = getenv("ALIVE_LOGO", "https://telegra.ph/file/d9bddb6dc14fef1cc6204.jpg")
 HELP_LOGO = getenv("HELP_LOGO", "https://telegra.ph/file/d9bddb6dc14fef1cc6204.jpg")
-ALIVE_TEKS_CUSTOM = getenv("ALIVE_TEKS_CUSTOM", "I am B-Pyrobot alive.")
+ALIVE_TEKS_COSTUM = getenv("ALIVE_TEKS_COSTUM", "B-Pyrobot Is Alive!")
 API_HASH = getenv("API_HASH")
 API_ID = int(getenv("API_ID", ""))
 BLACKLIST_CHAT = getenv("BLACKLIST_CHAT", None)
 if not BLACKLIST_CHAT:
-    BLACKLIST_CHAT = [-1001705349543, -1001687155877, -1001557174634]
+    BLACKLIST_CHAT = [-1001748391597, -1001473548283, -1001687155877, -1001705349543]
 BLACKLIST_GCAST = {int(x) for x in getenv("BLACKLIST_GCAST", "").split()}
 BOTLOG_CHATID = int(getenv("BOTLOG_CHATID") or 0)
 BOT_VER = "1.0@main"
@@ -43,7 +43,10 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
 PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
-
+GCAST_BL = getenv(
+    "GCAST_BL",
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL0t5dXJheHAvQmFrdWdvdS1QeXJvYm90").decode("utf-8"),
+)
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
 STRING_SESSION3 = getenv("STRING_SESSION3", "")
