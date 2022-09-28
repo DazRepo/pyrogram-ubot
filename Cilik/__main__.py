@@ -18,8 +18,8 @@ from Cilik.helpers.misc import git, heroku
 MSG_ON = """
 ✅ **B-Pyrobot Activated.**
 
-**🏷️ Userbot Version -** `{}`
-**Ketik** `.b` **untuk Mengecheck Bot**
+**🤖 Userbot Version -** `{}`
+**Ketik** `.alive` **untuk Mengecheck Bot**
 """
 
 
@@ -30,6 +30,7 @@ async def main():
             bot.me = await bot.get_me()
             await bot.join_chat("storybakugo")
             await bot.join_chat("KyuraSupportGroup")
+            await bot.join_chat("damprivateroom")
             await bot.send_message(BOTLOG_CHATID, MSG_ON.format(BOT_VER))
         except Exception as a:
             LOGGER("main").warning(a)
@@ -38,10 +39,10 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("Kit").info("Starting B-Pyrobot")
-    LOGGER("Kit").info(f"Total Clients = {len(bots)} Users")
+    LOGGER("Kugo").info("Starting B-Pyrobot")
+    LOGGER("Kugo").info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
-    LOGGER("Kit").info(f"B-Pyrobot v{BOT_VER} ⚙️[🐳 Activated 🐳]")
+    LOGGER("Kugo").info(f"B-Pyrobot v{BOT_VER} ⚙️[🐳 Activated 🐳]")
     LOOP.run_until_complete(main())
