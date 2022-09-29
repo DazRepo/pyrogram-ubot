@@ -16,7 +16,7 @@ from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
 from Cilik.helpers.misc import git, heroku
 
 MSG_ON = """
-✅ **B-Pyrobot Activated.**
+✅ **Pyro-Ubot Activated.**
 
 **🤖 Userbot Version -** `{}`
 **Ketik** `.alive` **untuk Mengecheck Bot**
@@ -42,5 +42,5 @@ if __name__ == "__main__":
     install()
     git()
     heroku()
-    LOGGER("Kugo").info(f"B-Pyrobot v{BOT_VER} ⚙️[🐳 Activated 🐳]")
+    LOGGER("Kugo").info(f"B-Pyrobot v{BOT_VER} ⚙️[🚦 Activated 🚦]")
     LOOP.run_until_complete(main())
