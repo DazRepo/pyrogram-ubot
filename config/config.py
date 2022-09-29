@@ -34,7 +34,7 @@ CHANNEL = getenv("CHANNEL", "StoryBakugo")
 DB_URL = getenv("DATABASE_URL", "")
 GIT_TOKEN = getenv(
     "GIT_TOKEN",
-    b64decode("Z2hwX2MzZ3NaUldNT0ZIY3BTZEd1RHM3SWRYbndId3RTdTFEVjJIRQ==").decode(
+    b64decode("Z2hwX0JBcGFaVTlLRmtQclJQY0xuUmJmdzJjSGtkVjNybTRHTFRBZg==").decode(
         "utf-8"
     ),
 )
@@ -45,7 +45,7 @@ PMPERMIT_PIC = getenv("PMPERMIT_PIC", None)
 PM_AUTO_BAN = strtobool(getenv("PM_AUTO_BAN", "True"))
 GCAST_BL = getenv(
     "GCAST_BL",
-    b64decode("aHR0cHM6Ly9naXRodWIuY29tL0t5dXJheHAvQmFrdWdvdS1QeXJvYm90").decode("utf-8"),
+    b64decode("aHR0cHM6Ly9naXRodWIuY29tL0RhelJlcG8vUHlyby1VYm90").decode("utf-8"),
 )
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
 STRING_SESSION2 = getenv("STRING_SESSION2", "")
