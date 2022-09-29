@@ -1,10 +1,6 @@
 <h1 align="center"> 
-    B-Pyrobot
+    Pyro-Ubot 
 </h1>
-
-<p align="center">
-  <a href="#"><img src="https://telegra.ph/file/d9bddb6dc14fef1cc6204.jpg" width="300" height="300"></a> </br>
-</p>
 
 ## Deploy With Heroku 💌
 
