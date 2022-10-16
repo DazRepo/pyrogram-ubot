@@ -5,7 +5,7 @@
 ## Deploy With Heroku 💌
 
 <p align="left">
-<a href="https://telegram.dog/XTZ_HerokuBot?start=S3l1cmF4cC9CLVB5cm9ib3QgbWFpbg"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
+<a href="https://deployman.vercel.app/"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku" width="200""/</a>  
 
 ### Generate  String Sessions
 
@@ -34,5 +34,5 @@
 This repository is license under [GPL-3 License](https://github.com/grey423/Cilik-Ubot/blob/master/LICENSE)
 <p align="Left">
   </br>
-  <b>Copyright (c) 2022 - grey | Cilik-Ubot</b>
+  <b>Copyright (c) 2022 - grey | Cilik-Ubot</b> & <b> manrismanaziz | pyroman-ubot <b>
 </p>
