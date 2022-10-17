@@ -99,7 +99,7 @@ bot1 = (
         session_name=STRING_SESSION1,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="Cilik/modules"),
+        plugins=dict(root="Dazbot/modules"),
     )
     if STRING_SESSION1
     else None
@@ -110,7 +110,7 @@ bot2 = (
         session_name=STRING_SESSION2,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="Cilik/modules"),
+        plugins=dict(root="Dazbot/modules"),
     )
     if STRING_SESSION2
     else None
@@ -121,7 +121,7 @@ bot3 = (
         session_name=STRING_SESSION3,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="Cilik/modules"),
+        plugins=dict(root="Dazbot/modules"),
     )
     if STRING_SESSION3
     else None
@@ -132,7 +132,7 @@ bot4 = (
         session_name=STRING_SESSION4,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="Cilik/modules"),
+        plugins=dict(root="Dazbot/modules"),
     )
     if STRING_SESSION4
     else None
@@ -143,7 +143,7 @@ bot5 = (
         session_name=STRING_SESSION5,
         api_id=API_ID,
         api_hash=API_HASH,
-        plugins=dict(root="Cilik/modules"),
+        plugins=dict(root="Dazbot/modules"),
     )
     if STRING_SESSION5
     else None
