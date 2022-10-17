@@ -12,8 +12,8 @@ from pyrogram import idle
 from uvloop import install
 
 from config import BOT_VER
-from Cilik import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
-from Cilik.helpers.misc import git, heroku
+from Dazbot import BOTLOG_CHATID, LOGGER, LOOP, aiosession, bots
+from Dazbot.helpers.misc import git, heroku
 
 MSG_ON = """
 ✅ **Pyro-Ubot Activated.**
@@ -36,8 +36,8 @@ async def main():
 
 
 if __name__ == "__main__":
-    LOGGER("Kugo").info("Starting B-Pyrobot")
-    LOGGER("Kugo").info(f"Total Clients = {len(bots)} Users")
+    LOGGER("Dazbot").info("Starting B-Pyrobot")
+    LOGGER("Dazbot).info(f"Total Clients = {len(bots)} Users")
     install()
     git()
     heroku()
