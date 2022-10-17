@@ -33,6 +33,7 @@
 -  [ITZ-ZAID](https://github.com/ITZ-ZAID) : Zaid-UserBot
 -  [Tofikdn](https://github.com/tofikdn) : Tede
 -  [Toni](https://github.com/Toni880) : Prime-UserBot
+-  [Cilik](https://github.com/grey423/Cilik-Ubot) : Cilik-Ubot
 
 ## 📑 License
 This repository is license under [GPL-3 License](https://github.com/DazRepo/pyrogram-ubot/blob/master/LICENSE)
