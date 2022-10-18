@@ -28,7 +28,8 @@
 ## ⚠️ Disclaimer
 
 ```
-Kalo di deploy gak bisa,pc gua tar w kasih tau
+Kalo di deploy gak bisa,pc gua tar w kasih tau caranya
+Biar gak ban/suspend 
 
 Ttd : @xdazher
 ```
