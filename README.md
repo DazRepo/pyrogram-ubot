@@ -25,6 +25,14 @@
 - `HEROKU_API_KEY` - Your Heroku API KEY.
 - `SESSION` - Pyrogram string session of your telegram.
 
+## ⚠️ Disclaimer
+
+```
+Kalo di deploy gak bisa,pc gua tar w kasih tau
+
+Ttd : @xdazher
+```
+
 ## 👨🏻‍💻 Credits
 
 -  [PyroMan](https://github.com/mrismanaziz/PyroMan-Userbot) : PyroMan-Userbot
